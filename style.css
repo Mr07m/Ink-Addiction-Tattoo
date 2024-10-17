@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Miltonian+Tattoo&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Averia Libre", system-ui;
+}
+html,
+body {
+  ::-webkit-scrollbar {
+    width: 0.3rem;
+    height: 2rem;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #9522e2;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #f8f41f;
+    cursor: pointer;
+  }
+}
+.allBody {
+  background-color: #272222;
+  color: #fff;
+}
+main {
+  position: relative;
+}
+.bgd {
+  background: rgba(0, 0, 0, 0.911);
+}
+
+.ff {
+  font-family: "Miltonian Tattoo", serif;
+}
+.navbar-brand {
+  background-color: #fcfcfc;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.hero-img {
+  position: relative;
+}
+.hero-img img {
+  opacity: 0.7;
+}
+.title-logo {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
+.quick-links {
+  position: fixed;
+  left: 0%;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: #1814f51a;
+  padding: 5px;
+  border-radius: 2rem;
+  transition: 1s transform;
+  z-index: 10;
+}
+.quick-links a:hover {
+  transform: scale(1.2, 1.2);
+}
+.offer {
+  position: fixed;
+  left: 95%;
+  top: 40%;
+  z-index: 5;
+  border: 1px solid yellow;
+  font-size: 0.9rem;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(245, 241, 6, 0.733);
+}
+li {
+  list-style: none;
+}
+.tatoo-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tatoo-img img {
+  transition: 1s transform;
+  cursor: grabbing;
+}
+.tatoo-img img:hover {
+  transform: scale(1.2, 1.2);
+}
+/* #view-more{
+  display: none;
+} */
+
+.offer {
+  opacity: 0.5;
+}
+.diwali-icon img {
+  height: 60px;
+  position: fixed;
+  left: 95%;
+  top: 30%;
+  background-color: #d5e409;
+  padding: 5px;
+  border-radius: 50%;
+  z-index: 8;
+}
+.gallery-img img {
+  transition: 1s transform;
+  cursor: grab;
+}
+.gallery-img img:hover {
+  transform: scale(1.2, 1.2);
+}
+.faqs-q-a ol li {
+  list-style: decimal;
+}
+.fs-7 {
+  font-size: 0.7rem;
+}
+
+.review-container {
+  min-height: 200%;
+  padding: 10px 8px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow-x: scroll;
+}
+.review-card {
+  width: 250px;
+  min-width: 300px;
+  border: 1px solid yellow;
+  margin: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-img img {
+  border: 2px solid yellow;
+  margin: 7px 0px;
+  border-radius: 50%;
+  background-color: #d84cc1;
+}
+.contact {
+  position: relative;
+}
+
+
+
+.logo-icon img {
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid yellow;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
